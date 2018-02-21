@@ -9,7 +9,7 @@
         v-layout(align-center wrap).text-xs-center
           v-flex(xs12)
             img(
-              src="/static/vuetify-logo-300.png"
+              src="https://s3.amazonaws.com/vuetify-docs/static/doc-images/root-images/vuetify-logo-300.png"
               alt="Logo"
               width="196px"
             )
@@ -87,7 +87,7 @@
               p(v-for="(p, i) in letterFromAuthor" :key="i") {{p}}
           v-flex(xs3 xl2).text-xs-center.hidden-xs-only
             v-avatar
-             img(src="/static/doc-images/john.jpg")
+             img(src="https://s3.amazonaws.com/vuetify-docs/static/doc-images/root-images/john.jpg")
             p.john John Leider
             p.authorOfVuetify {{ $t("Vuetify.Home.authorOfVuetify") }}
 
@@ -106,7 +106,7 @@
               target="_blank"
               rel="noopener"
             )
-              img(src="/static/doc-images/patreon_logo.png" width="75%")
+              img(src="https://s3.amazonaws.com/vuetify-docs/static/doc-images/root-images/patreon_logo.png" width="75%")
           v-flex(xs12 md9 xl7).mb-5
             p {{ $t("Vuetify.Home.support.hasVuetifyHelped") }}
             p {{ $t("Vuetify.Home.support.showYourSupport") }} <a href="https://www.patreon.com/vuetify" target="_blank">{{ $t("Vuetify.Home.support.becomingAPatron") }}</a>.
@@ -135,7 +135,7 @@
                 v-else
               )
                 img(
-                  :src="`/static/doc-images/${supporter.src}`"
+                  :src="`https://s3.amazonaws.com/vuetify-docs/static/doc-images/${supporter.src}`"
                   :height="supporter.size || 'auto'"
                   :style="{ maxHeight: `${supporter.size}px` }"
                 ).supporter
@@ -146,7 +146,7 @@
     section#callout
       v-container
         v-layout(flex xs12 md8 lg10 align-center justify-center mx-auto wrap)
-          img(src="/static/v-alt.svg" height="75px")
+          img(src="https://s3.amazonaws.com/vuetify-docs/static/doc-images/root-images/v-alt.svg" height="75px")
           h2.mx-4 {{ $t("Vuetify.Home.callout") }}
 
     home-footer
@@ -427,7 +427,7 @@
       bottom 0
       height 100vw
       min-height 100%
-      background url('/static/doc-images/slant-footer.svg') no-repeat 50% 100%
+      background url('https://s3.amazonaws.com/vuetify-docs/static/doc-images/root-images/slant-footer.svg') no-repeat 50% 100%
       background-size 100%
       width: 100%
 

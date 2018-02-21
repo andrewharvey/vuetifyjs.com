@@ -7,7 +7,7 @@ export default {
   sourceCode: 'Исходный код',
   templates: [
     {
-      screenshot: '/static/doc-images/starter/vuetify-premium.jpg',
+      screenshot: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/starter/vuetify-premium.jpg',
       title: 'Startup',
       tag: 'PREMIUM',
       description: 'Покажите свою компанию или портфолио с помощью этого красиво оформленного шаблона Material design.',
@@ -15,14 +15,14 @@ export default {
       demoUrl: ''
     },
     {
-      screenshot: '/static/doc-images/starter/vuetify-parallax-starter.png',
+      screenshot: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/starter/vuetify-parallax-starter.png',
       title: 'Parallax',
       description: 'Этот красивый параллакс с одной страницей - отличная домашняя страница для любого приложения.',
       sourceUrl: 'vuetifyjs/parallax-starter',
       demoUrl: '/themes/parallax-starter'
     },
     {
-      screenshot: '/static/doc-images/starter/vuetify-blog-starter.png',
+      screenshot: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/starter/vuetify-blog-starter.png',
       title: 'Блог',
       description: 'Простой шаблон, который содержит чистый интерфейс для создания блога или приложения, подобного блогу.',
       sourceUrl: 'vuetifyjs/blog-starter',

@@ -43,7 +43,7 @@
         const replace = /(export default {|<script>|<\/script>|}([^}]*)$)/g
         return (this.pen.script || '')
           .replace(replace, '')
-          .replace(/\/static\//g, 'https://vuetifyjs.com/static/')
+          .replace(/\static\//g, 'https://s3.amazonaws.com/vuetify-docs/static/')
           .replace(/\n {2}/g, '\n')
           .trim()
       },
@@ -57,7 +57,7 @@
         const template = this.pen.template || ''
 
         return template
-          .replace(/\/static\//g, 'https://vuetifyjs.com/static/')
+          .replace(/\static\//g, 'https://s3.amazonaws.com/vuetify-docs/static/')
           .replace(/(<template>|<\/template>([^</template>]*)$)/g, '')
           .replace(/\n/g, '\n  ')
           .trim()

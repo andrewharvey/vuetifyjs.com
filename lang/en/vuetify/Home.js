@@ -5,17 +5,17 @@ export default {
   getStarted: 'Get Started',
   features: [
     {
-      img: '/static/doc-images/feature1.svg',
+      img: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/root-images/feature1.svg',
       title: 'Ready-Made Project Scaffolding',
       text: 'Vuetify comes ready to go with 8 pre-made vue-cli templates. From simple html to full-blown SSR you are ready to go in minutes.'
     },
     {
-      img: '/static/doc-images/feature2.svg',
+      img: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/root-images/feature2.svg',
       title: 'Semantic Material Components',
       text: 'Be prepared for an armada of specialized components at your disposal. With over 80 in total, there is a solution for any application.'
     },
     {
-      img: '/static/doc-images/feature3.svg',
+      img: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/root-images/feature3.svg',
       title: 'Vibrant Community',
       text: 'When you run into a roadblock, you need assistance right away. Vuetify offers chat support in our growing community on Discord.'
     }

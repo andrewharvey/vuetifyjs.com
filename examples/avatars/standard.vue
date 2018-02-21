@@ -28,7 +28,7 @@
           :size="avatarSize"
           class="grey lighten-4"
         >
-          <img src="/static/apple-touch-icon-180x180.png" alt="avatar">
+          <img src="https://s3.amazonaws.com/vuetify-docs/static/apple-touch-icon-180x180.png" alt="avatar">
         </v-avatar>
       </v-flex>
     </v-layout>

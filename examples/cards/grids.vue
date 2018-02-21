@@ -55,9 +55,9 @@
   export default {
     data: () => ({
       cards: [
-        { title: 'Pre-fab homes', src: '/static/doc-images/cards/house.jpg', flex: 12 },
-        { title: 'Favorite road trips', src: '/static/doc-images/cards/road.jpg', flex: 6 },
-        { title: 'Best airlines', src: '/static/doc-images/cards/plane.jpg', flex: 6 }
+        { title: 'Pre-fab homes', src: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/cards/house.jpg', flex: 12 },
+        { title: 'Favorite road trips', src: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/cards/road.jpg', flex: 6 },
+        { title: 'Best airlines', src: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/cards/plane.jpg', flex: 6 }
       ]
     })
   }

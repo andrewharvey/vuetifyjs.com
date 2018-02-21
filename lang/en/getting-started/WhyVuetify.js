@@ -21,17 +21,17 @@ export default {
   ],
   philosophies: [
     {
-      img: '/static/vuetify_semantic.svg',
+      img: 'https://s3.amazonaws.com/vuetify-docs/static/vuetify_semantic.svg',
       title: 'Semantic toolkit',
       caption: `Vuetify is built from the ground up to be semantic. Easy to learn, easy to remember&mdash;this means that whether you are developing your own application, or onboarding a new developer, Vuetify's _write-as-you-speak_ components and properties make development a breeze.`
     },
     {
-      img: '/static/vuetify_sizes.svg',
+      img: 'https://s3.amazonaws.com/vuetify-docs/static/vuetify_sizes.svg',
       title: 'Continous updates',
       caption: `Vuetify has a consistent update cycle, allowing you to get your hands on bug fixes and enhancements more often. The development team is committed to providing you with the best experience you can have.`
     },
     {
-      img: '/static/vuetify_cli.svg',
+      img: 'https://s3.amazonaws.com/vuetify-docs/static/vuetify_cli.svg',
       title: 'Amazing support',
       caption: `When you run into a roadblock, you need assistance immediately. Vuetify offers chat support in our growing community on Discord.`
     }

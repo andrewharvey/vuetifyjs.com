@@ -54,11 +54,11 @@
   export default {
     data () {
       let srcs = {
-        1: '/static/doc-images/lists/1.jpg',
-        2: '/static/doc-images/lists/2.jpg',
-        3: '/static/doc-images/lists/3.jpg',
-        4: '/static/doc-images/lists/4.jpg',
-        5: '/static/doc-images/lists/5.jpg'
+        1: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/lists/1.jpg',
+        2: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/lists/2.jpg',
+        3: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/lists/3.jpg',
+        4: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/lists/4.jpg',
+        5: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/lists/5.jpg'
       }
 
       return {

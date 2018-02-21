@@ -71,7 +71,7 @@
                       v-list-tile(avatar tag="div")
                         v-list-tile-avatar
                           v-avatar
-                            img(src="/static/doc-images/john.jpg")
+                            img(src="https://s3.amazonaws.com/vuetify-docs/static/doc-images/john.jpg")
                         v-list-tile-content
                           v-list-tile-title John Leider
                           v-list-tile-sub-title {{ $t(`${namespace}.authorOfVuetify`) }}

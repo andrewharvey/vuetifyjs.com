@@ -3,7 +3,7 @@
     template(slot-scope="{ namespace }")
       a(href="https://www.patreon.com/bePatron?u=6223325" target="_blank").d-inline-block.mb-5
         img(
-          src="/static/doc-images/become_a_patron_button.png"
+          src="https://s3.amazonaws.com/vuetify-docs/static/doc-images/become_a_patron_button.png"
           alt="Become a Patron"
           width="175px"
         )
@@ -30,7 +30,7 @@
               @click="$ga.event('backers page click', 'click', backer.title)"
             ).text-xs-center.mx-3
               img(
-                :src="`/static/doc-images/${backer.src}`"
+                :src="`https://s3.amazonaws.com/vuetify-docs/static/doc-images/${backer.src}`"
                 :alt="backer.title"
               ).supporter
 
@@ -50,7 +50,7 @@
               @click="$ga.event('backers page click', 'click', backer.title)"
             ).text-xs-center.mx-3
               img(
-                :src="`/static/doc-images/${backer.src}`"
+                :src="`https://s3.amazonaws.com/vuetify-docs/static/doc-images/${backer.src}`"
                 :alt="backer.title"
               ).supporter
 
@@ -75,7 +75,7 @@
               @click="$ga.event('backers page click', 'click', backer.title)"
             ).text-xs-center.mx-3
               img(
-                :src="`/static/doc-images/${backer.src}`"
+                :src="`https://s3.amazonaws.com/vuetify-docs/static/doc-images/${backer.src}`"
                 :alt="backer.title"
                 style="max-width: 150px;"
               ).supporter
@@ -98,7 +98,7 @@
               @click="$ga.event('backers page click', 'click', affiliate.title)"
             ).text-xs-center.mx-3
               img(
-                :src="`/static/doc-images/${affiliate.src}`"
+                :src="`https://s3.amazonaws.com/vuetify-docs/static/doc-images/${affiliate.src}`"
                 :alt="affiliate.title"
                 style="max-width: 150px;"
               ).supporter
@@ -120,7 +120,7 @@
               @click="$ga.event('backers page click', 'click', sponsor.title)"
             ).text-xs-center.mx-3
               img(
-                :src="`/static/doc-images/${sponsor.src}`"
+                :src="`https://s3.amazonaws.com/vuetify-docs/static/doc-images/${sponsor.src}`"
                 alt="sponsor.title"
                 style="max-width: 150px;"
               ).supporter

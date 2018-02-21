@@ -5,19 +5,19 @@ export default {
   getStarted: 'Начать',
   features: [
     {
-      img: '/static/doc-images/feature1.svg',
+      img: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/feature1.svg',
       title: 'Готовые шаблоны проекта',
       text:
         'Vuetify готов к работе с 8 шаблонами vue-cli. От простого html до полномасштабного SSR, все это и за считанные минуты.'
     },
     {
-      img: '/static/doc-images/feature2.svg',
+      img: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/feature2.svg',
       title: 'Семантические Material Components',
       text:
         'Огромное количество, более чем 80 компонентов, подходящих для повторного использования и спроектированных с применением семантических принципов, основанных на простых и чётких именах свойств, которые легко запоминать и использовать.'
     },
     {
-      img: '/static/doc-images/feature3.svg',
+      img: 'https://s3.amazonaws.com/vuetify-docs/static/doc-images/feature3.svg',
       title: 'Яркое сообщество',
       text:
         'Когда вы столкнётесь с проблемой, вам понадобиться помощь. Vuetify предлагает поддержку чата в нашем растущем сообществе в Discord.'

@@ -8,7 +8,7 @@ export default {
   applicationHeader: 'Application',
   applicationText1: 'Navigate to the **src** folder and open up <code>App.vue</code>. Vuetify is a semantic-focused framework. The code you write should be easy to remember, and easy to manage. To do this, one of the main components of Vuetify is <code>v-app</code>. This component allows you to define your application layout. This is used in conjunction with <code>v-toolbar</code>, <code>v-navigation-drawer</code>, and <code>v-footer</code>.',
   applicationText2: 'The markup below tells the application that you have a <code>toolbar</code> and <code>footer</code>. Once defined, the content area will be resized to accommodate. For more information on layouts, navigate to the <router-link to="/layouts/pre-defined">Layouts</router-link> section.',
-  applicationText3: 'Place all statically served assets in <code>static</code>. This can be accessed by referencing <code>/static/picture.png</code>, for example.',
+  applicationText3: 'Place all statically served assets in <code>static</code>. This can be accessed by referencing <code>https://s3.amazonaws.com/vuetify-docs/static/picture.png</code>, for example.',
   applicationText4: 'The components folder is where your custom components should be placed. Edit the <code>components/_index.js</code> file to have these files automatically bootstrapped for you.',
   applicationSubHeader1: 'Static assets',
   applicationSubHeader2: 'Components',
