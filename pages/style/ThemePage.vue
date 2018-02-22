@@ -100,6 +100,8 @@
           |// or
           | $ yarn add -D stylus stylus-loader style-loader css-loader
         section-text(:value="`${namespace}.stylusText3`")
+        section-text(:value="`${namespace}.stylusText4`")
+        section-text(:value="`${namespace}.stylusText5`")
         markup(lang="javascript")
           | module: {
           |   rules: [
@@ -109,17 +111,17 @@
           |     }
           |   ]
           | }
-        section-text(:value="`${namespace}.stylusText4`")
+        section-text(:value="`${namespace}.stylusText6`")
         markup(lang="stylus")
           | // main.styl
           | @import '~vuetify/src/stylus/main'
-        section-text(:value="`${namespace}.stylusText5`")
+        section-text(:value="`${namespace}.stylusText7`")
         markup(lang="javascript")
           | // app.js
           | import './stylus/main.styl'
-        section-text(:value="`${namespace}.stylusText6`")
+        section-text(:value="`${namespace}.stylusText8`")
         h3.mb-3 {{ $t(`${namespace}.stylusHeader3`) }}
-        section-text(:value="`${namespace}.stylusText7`")
+        section-text(:value="`${namespace}.stylusText9`")
         markup(lang="stylus")
           | $body-font-family = 'Open Sans'
           | $alert-font-size = 18px
